@@ -2,25 +2,42 @@ import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args){
-        String[] choices = {"Conversor de Moeda", "Conversor de Temperatura"};
-        String input=(String)JOptionPane.showInputDialog(null, 
-        "Escolha uma opção", "Menu", JOptionPane.PLAIN_MESSAGE, null, 
-        choices, choices[0]);
-        
-        String entrada=(String)JOptionPane.showInputDialog(null,
-        "Insira um valor", "Input", JOptionPane.INFORMATION_MESSAGE);
-        
-        double valor=0;
+        double valorDoDolar=5.25;
+        double valorDoEuro=5.65;
+        double valorParaSerConverdido=0;
+        double valorDeMoedaConvertido=0;
+
+        String[] opcoesDeConversao = {"Conversor de Moeda", "Conversor de Temperatura"};
+        String tipoDeConversaoEscolhida=(String)JOptionPane.showInputDialog(null,"Escolha uma opção","Menu",JOptionPane.PLAIN_MESSAGE,null,opcoesDeConversao,opcoesDeConversao[0]);
+
         try{
-            valor=Double.parseDouble(entrada);
+            valorParaSerConverdido=Double.parseDouble(
+                (String)JOptionPane.showInputDialog(null,"Insira um valor","Input",JOptionPane.INFORMATION_MESSAGE)
+            );
         } catch(NumberFormatException ex){
-            JOptionPane.showMessageDialog(null, 
-            "Valor inválido, fim do programa", "Erro", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Valor inválido, fim do programa","Erro",JOptionPane.ERROR_MESSAGE);
             throw new RuntimeException("Encerrando o programa");
         }
-        System.out.println("[" + valor + "]");
 
-        JOptionPane.showMessageDialog(null, "Valor válido", 
-        "Acerto", JOptionPane.NO_OPTION);
+        String[] opcaoesDeConversaoDeMoeda={"Converter de Reais a Dólar", "Converter de Reais a Euro", "Converter de Dólar a Reais", "Converter de Euro a Reais"};
+        String moedaParaConversaoEscolhida=(String)JOptionPane.showInputDialog(null,"Escolha o tipo de conversao","Moedas",JOptionPane.PLAIN_MESSAGE,null,opcaoesDeConversaoDeMoeda,opcaoesDeConversaoDeMoeda[0]);
+        switch(moedaParaConversaoEscolhida){
+            case "Converter de Reais a Dólar":
+                valorDeMoedaConvertido=valorParaSerConverdido*valorDoDolar;
+                break;
+            case "Converter de Reais a Euro":
+                valorDeMoedaConvertido=valorParaSerConverdido*valorDoEuro;
+                break;
+            case "Converter de Dólar a Reais":
+                valorDeMoedaConvertido=valorParaSerConverdido/valorDoDolar;
+                break;
+            case "Converter de Euro a Reais":
+                valorDeMoedaConvertido=valorParaSerConverdido/valorDoEuro;
+                break;
+            default: 
+                System.out.println("Nenhuma opção escolhida");
+                break;
+        }
+        JOptionPane.showMessageDialog(null,"O valor da conversão é de " + valorDeMoedaConvertido,"Saída",JOptionPane.PLAIN_MESSAGE);
     }
 }
