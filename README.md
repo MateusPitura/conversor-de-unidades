@@ -15,10 +15,10 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
 
 ## Índice
 
-  * [Funcionalidades](##Funcionalidades)
-  * [Como executar](##Como-executar)
-  * [Tecnologias usadas](##Tecnologias-usadas)
-  * [Autor](##Autor)
+  * [Funcionalidades](##funcionalidades)
+  * [Como executar](##como-executar)
+  * [Tecnologias usadas](##tecnologias-usadas)
+  * [Autor](##autor)
   
 ## Funcionalidades
 
@@ -46,4 +46,4 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
 | Mateus Pitura |
 |------|
 | <img src="https://user-images.githubusercontent.com/119008106/227821967-fac62c31-0d62-485b-829e-ef56c033e21a.jpeg" width="100" height="100" style="border: none"> |
-| <a href="https://www.linkedin.com/in/mateuspitura/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> | 
+| <a href="https://www.linkedin.com/in/mateuspitura/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> | 
