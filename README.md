@@ -1,6 +1,6 @@
 <h1 align="center">
-  <p align="center">Conversor de Unidades</p>
-  <img src="https://user-images.githubusercontent.com/119008106/227816218-16b3c880-7927-4bec-95a4-1335fdc70385.png" alt="Menu inicial do conversor de unidades">
+  <p>Conversor de Unidades</p>
+  <img src="https://user-images.githubusercontent.com/119008106/227816218-16b3c880-7927-4bec-95a4-1335fdc70385.png" alt="Menu inicial do conversor de unidades" width="50%">
 </h1>
 
 <p>
@@ -8,6 +8,8 @@
   <img src="https://img.shields.io/badge/status-build-orange" alt="Budge para status do projeto">
   <img src="https://img.shields.io/github/stars/MateusPitura/conversor-de-unidades?style=social" alt="Badge para quantidade de favoritos do repositório">
 </p>
+
+> :construction: Este aplicativo está em desenvolvimento :construction:
 
 ## Descrição
 
@@ -18,7 +20,7 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
 - [Funcionalidades](#funcionalidades)
 - [Como executar](#como-executar)
 - [Tecnologias usadas](#tecnologias-usadas)
-- [Autor](#autor)
+- [Autores](#autores)
   
 ## Funcionalidades
 
@@ -41,9 +43,9 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
  
  :heavy_check_mark: Swing
 
-## Autor
+## Autores
 
 | Mateus Pitura |
 |------|
-| <img src="https://user-images.githubusercontent.com/119008106/227821967-fac62c31-0d62-485b-829e-ef56c033e21a.jpeg" width="100" height="100" style="border: none"> |
+| <p align="center"><img src="https://user-images.githubusercontent.com/119008106/227821967-fac62c31-0d62-485b-829e-ef56c033e21a.jpeg" width="100" height="100"></p> |
 | <a href="https://www.linkedin.com/in/mateuspitura/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> | 
