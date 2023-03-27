@@ -30,12 +30,16 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
 
 :straight_ruler: **Conversão de distância:** o aplicativo permite que os usuários convertam entre quilômetros, milhas e metros
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/119008106/228041187-97897ed3-5104-4758-ad93-ea50a1033eaf.gif" alt="Gif mostrando as funcionalidades" width="50%">
+</p>
+
 ## Como executar
  
-1. Baixe o repositório
-2. Abra o terminal e navegue até a pasta do projeto
-3. Compile o aplicativo usando o comando `javac Main.java`
-4. Execute o aplicativo usando o comando `java Main`
+1. Baixe o repositório e descompacte
+2. Abra o terminal e navegue até a pasta `src` do projeto
+3. Compile o aplicativo usando o comando `javac App.java`
+4. Execute o aplicativo usando o comando `java App`
 
  ## Tecnologias usadas
  
