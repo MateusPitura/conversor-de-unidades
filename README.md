@@ -41,7 +41,7 @@ Este é um conversor de unidades em Java usando Swing que permite aos usuários 
 3. Compile o aplicativo usando o comando `javac App.java`
 4. Execute o aplicativo usando o comando `java App`
 
- ## Tecnologias usadas
+## Tecnologias usadas
  
  :heavy_check_mark: Java SE 17
  
