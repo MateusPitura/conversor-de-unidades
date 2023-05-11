@@ -9,8 +9,8 @@ public class App {
         int respostaContinuacao;
 
         do{
-            String[] opcoesDeConversao={"Conversor de Moeda", "Conversor de Temperatura"};
-            String tipoDeConversaoEscolhida=(String)JOptionPane.showInputDialog(null,"Escolha uma opção: ","Menu",JOptionPane.PLAIN_MESSAGE,null,opcoesDeConversao,opcoesDeConversao[0]);
+            String[] opcoesDeConversao={"Conversor de Moeda: ", "Conversor de Temperatura"};
+            String tipoDeConversaoEscolhida=(String)JOptionPane.showInputDialog(null,"Escolha uma opção","Menu",JOptionPane.PLAIN_MESSAGE,null,opcoesDeConversao,opcoesDeConversao[0]);
 
             try{
                 valorParaSerConverdido=Double.parseDouble(
